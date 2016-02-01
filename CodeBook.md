@@ -20,54 +20,54 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 ## Tidy Data Set
 
-In this tidy data set, there are the mean of each measurement variable (total: 66) for each activity (total: 6) and subject (total: 30). Only the subject ID, activity labels, and mean and standard deviations of the measurement values were extracted from the original data. Variables labeled with "meanFreq" were not included.
+In this tidy data set, there are the mean of each measurement variable (total: 66) for each activity (total: 6) and subject (total: 30). Only the subject IDs, activity labels, and mean and standard deviations of the measurement values were extracted from the original data. Variables labeled with "meanFreq" were not included.
 
 Factor variables:
-* subject ID
-* activity label
+* subject
+* activity
 
 Measurement variables:
 (notes: '-XYZ' is used to denote 3 separate axial measurements in the X, Y and Z directions)
 
 * Time Domain Signals:
 
-time-BodyAcceleration-Mean-XYZ
-time-BodyAcceleration-StandardDeviation-XYZ
-time-GravityAcceleration-Mean-XYZ
-time-GravityAcceleration-StandardDeviation-XYZ
-time-BodyAccelerationJerk-Mean-XYZ
-time-BodyAccelerationJerk-StandardDeviation-XYZ
-time-BodyGyroscope-Mean-XYZ
-time-BodyGyroscope-StandardDeviation-XYZ
-time-BodyGyroscopeJerk-Mean-XYZ
-time-BodyGyroscopeJerk-StandardDeviation-XYZ
-time-BodyAccelerationMagnitude-Mean
-time-BodyAccelerationMagnitude-StandardDeviation
-time-GravityAccelerationMagnitude-Mean
-time-GravityAccelerationMagnitude-StandardDeviation
-time-BodyAccelerationJerkMagnitude-Mean
-time-BodyAccelerationJerkMagnitude-StandardDeviation
-time-BodyGyroscopeMagnitude-Mean
++ time-BodyAcceleration-Mean-XYZ
++ time-BodyAcceleration-StandardDeviation-XYZ
++ time-GravityAcceleration-Mean-XYZ
++ time-GravityAcceleration-StandardDeviation-XYZ
++ time-BodyAccelerationJerk-Mean-XYZ
++ time-BodyAccelerationJerk-StandardDeviation-XYZ
++ time-BodyGyroscope-Mean-XYZ
++ time-BodyGyroscope-StandardDeviation-XYZ
++ time-BodyGyroscopeJerk-Mean-XYZ
++ time-BodyGyroscopeJerk-StandardDeviation-XYZ
++ time-BodyAccelerationMagnitude-Mean
++ time-BodyAccelerationMagnitude-StandardDeviation
++ time-GravityAccelerationMagnitude-Mean
++ time-GravityAccelerationMagnitude-StandardDeviation
++ time-BodyAccelerationJerkMagnitude-Mean
++ time-BodyAccelerationJerkMagnitude-StandardDeviation
++ time-BodyGyroscopeMagnitude-Mean
 time-BodyGyroscopeMagnitude-StandardDeviation
 time-BodyGyroscopeJerkMagnitude-Mean
 time-BodyGyroscopeJerkMagnitude-StandardDeviation
 
 * Frequency Domain Signals:
 
-frequency-BodyAcceleration-Mean-XYZ
-frequency-BodyAcceleration-StandardDeviation-XYZ
-frequency-BodyAccelerationJerk-Mean-XYZ
-frequency-BodyAccelerationJerk-StandardDeviation-XYZ
-frequency-BodyGyroscope-Mean-XYZ
-frequency-BodyGyroscope-StandardDeviation-XYZ
-frequency-BodyAccelerationMagnitude-Mean
-frequency-BodyAccelerationMagnitude-StandardDeviation
-frequency-BodyBodyAccelerationJerkMagnitude-Mean
-frequency-BodyBodyAccelerationJerkMagnitude-StandardDeviation
-frequency-BodyBodyGyroscopeMagnitude-Mean
-frequency-BodyBodyGyroscopeMagnitude-StandardDeviation
-frequency-BodyBodyGyroscopeJerkMagnitude-Mean
-frequency-BodyBodyGyroscopeJerkMagnitude-StandardDeviation
++ frequency-BodyAcceleration-Mean-XYZ
++ frequency-BodyAcceleration-StandardDeviation-XYZ
++ frequency-BodyAccelerationJerk-Mean-XYZ
++ frequency-BodyAccelerationJerk-StandardDeviation-XYZ
++ frequency-BodyGyroscope-Mean-XYZ
++ frequency-BodyGyroscope-StandardDeviation-XYZ
++ frequency-BodyAccelerationMagnitude-Mean
++ frequency-BodyAccelerationMagnitude-StandardDeviation
++ frequency-BodyBodyAccelerationJerkMagnitude-Mean
++ frequency-BodyBodyAccelerationJerkMagnitude-StandardDeviation
++ frequency-BodyBodyGyroscopeMagnitude-Mean
++ frequency-BodyBodyGyroscopeMagnitude-StandardDeviation
++ frequency-BodyBodyGyroscopeJerkMagnitude-Mean
++ frequency-BodyBodyGyroscopeJerkMagnitude-StandardDeviation
 
 
 ## Tidying the Data Set
