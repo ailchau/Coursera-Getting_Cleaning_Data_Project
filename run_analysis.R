@@ -4,7 +4,6 @@
 
 # Load libraries.
 library(reshape2)
-library(dplyr)
 
 # Download the UCI Har Dataset in working directory
 url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
@@ -81,6 +80,6 @@ melt_data <- melt(extract_data, id.vars=c("subject", "activity"))
 means <- dcast(melt_data, subject + activity ~ ..., mean)
 
 # Write tidy data set to file
-write.table(means, file="./tidy_data.txt", sep="\t")
+write.table(means, file="./tidy_data.txt", row.name=FALSE)
 
 
